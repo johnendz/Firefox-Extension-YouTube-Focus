@@ -1,0 +1,55 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-dark: #1F232A;
+    --color-text: #efefef;
+    --color-bar: #1a1a1a;
+    --color-textdark: #777474;
+    --color-button: #404040;
+    --color-icon: #E1E1E1;
+}
+
+#comments,
+#related,
+#watch7-sidebar-contents,
+#watch-discussion,
+#secondary {
+  display: none !important;
+}
+
+ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+    max-height: calc(100vh - 58px) !important;
+}
+
+#container.ytd-searchbox {
+    border-radius: 25px 0 0 25px !important;
+    padding: 4px 6px !important;
+}
+
+#search-input.ytd-searchbox-spt input {
+    margin-right: 10px !important;
+}
+
+#search-icon-legacy.ytd-searchbox {
+    border-radius: 0 25px 25px 0 !important;
+}
+
+.sbsb_a {
+    background-color: var(--color-background) !important;
+}
+
+.sbpqs_a {
+    color: var(--color-text) !important;
+}
+
+.sbsb_d {
+    background: var(--color-background-shadow) !important;
+}
+
+.sbsb_a {
+    padding: inherit !important;
+}
+
+.sbdd_b {
+    border: inherit !important;
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Ativar modo foco com tema escuro",
+  "manifest_version": 2,
+  "name": "YouTube Focus Dark",
+  "author": "Johnendz",
+  "version": "1.0",
+  "homepage_url": "https://github.com/johnendz",
+
+  "content_scripts": [
+    {
+	  "matches": ["*://www.youtube.com/*"],
+      "css":["style.css"],
+      "js": ["script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png"
+  }
+}
