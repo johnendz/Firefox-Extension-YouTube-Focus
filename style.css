@@ -13,7 +13,9 @@
 #related,
 #watch7-sidebar-contents,
 #watch-discussion,
-#secondary {
+#secondary,
+ytd-mini-guide-renderer.ytd-app,
+#masthead-ad {
   display: none !important;
 }
 
@@ -27,18 +29,18 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 }
 
 #search-input.ytd-searchbox-spt input {
-    margin-right: 10px !important;
+    margin: 0 5px !important;
 }
 
 #search-icon-legacy.ytd-searchbox {
     border-radius: 0 25px 25px 0 !important;
 }
 
-.sbsb_a {
+.sbsb_a, .sbfl_b {
     background-color: var(--color-background) !important;
 }
 
-.sbpqs_a {
+.sbpqs_a, .gsfs, .sbfl_a:hover {
     color: var(--color-text) !important;
 }
 
@@ -52,4 +54,13 @@ ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-fl
 
 .sbdd_b {
     border: inherit !important;
+}
+ytd-app[mini-guide-visible_] ytd-page-manager.ytd-app {
+    margin-left: inherit !important;
+}
+ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+    left: inherit !important;
+}
+#buttons .ytd-masthead:last-child {
+    display: none !important;
 }
