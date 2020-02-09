@@ -9,18 +9,20 @@
     --color-icon: #E1E1E1;
 }
 
-#comments,
-#related,
-#watch7-sidebar-contents,
-#watch-discussion,
-#secondary,
-ytd-mini-guide-renderer.ytd-app,
-#masthead-ad {
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-dark) var(--color-background-shadow);
+}
+
+#comments, #related, #watch7-sidebar-contents, #watch-discussion, #secondary, ytd-mini-guide-renderer.ytd-app, #masthead-ad {
   display: none !important;
 }
 
-ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy {
     max-height: calc(100vh - 58px) !important;
+}
+ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+    max-height: inherit !important;
 }
 
 #container.ytd-searchbox {
@@ -61,6 +63,6 @@ ytd-app[mini-guide-visible_] ytd-page-manager.ytd-app {
 ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
     left: inherit !important;
 }
-#buttons .ytd-masthead:last-child {
+#buttons ytd-button-renderer {
     display: none !important;
 }
