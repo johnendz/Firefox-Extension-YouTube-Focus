@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Youtube logo" src="https://i.imgur.com/p29nGwP.png" width="200px" />
+    <img alt="Youtube logo" src="https://i.imgur.com/10jvvOd.png" width="250px" />
 </h1>
 
 <h4 align="center">
