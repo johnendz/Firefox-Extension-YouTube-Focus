@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  ⚡ YouTube Focus
+  ⚡ YouTube Focus (Modo Foco)
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/amo/users/youtube-focus?color=red">
