@@ -3,22 +3,24 @@
 </h1>
 
 <h4 align="center">
-  ⚡ YouTube Focus Dark
+  ⚡ YouTube Focus
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/johnendz/Firefox-Extension-YouTube-Focus-Dark">
+  <img alt="GitHub language count" src="https://img.shields.io/amo/users/youtube-focus?color=red">
+    
+  <img alt="GitHub language count" src="https://img.shields.io/amo/dw/youtube-focus?color=red">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnendz/Firefox-Extension-YouTube-Focus-Dark">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnendz/Firefox-Extension-YouTube-Focus?color=red">
   
-  <a href="https://github.com/johnendz/Firefox-Extension-YouTube-Focus-Dark/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnendz/Firefox-Extension-YouTube-Focus-Dark">
+  <a href="https://github.com/johnendz/Firefox-Extension-YouTube-Focus/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnendz/Firefox-Extension-YouTube-Focus?color=red">
   </a>
 
-  <a href="https://github.com/johnendz/Firefox-Extension-YouTube-Focus-Dark/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/johnendz/Firefox-Extension-YouTube-Focus-Dark">
+  <a href="https://github.com/johnendz/Firefox-Extension-YouTube-Focus/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/johnendz/Firefox-Extension-YouTube-Focus?color=red">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
 </p>
 
 <p align="center">
@@ -44,7 +46,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O YouTube Focus Dark é um projeto para deixar a interface da aplicação web com aparência escura e focar no video.
+O YouTube Focus é um projeto para ter uma experiencia mais focada na visualização do video, que no resto das coisas.
 
 ## 🤔 Como contribuir
 
